@@ -19,17 +19,19 @@ body{
 }
 .btn-primary{
     border-radius: 10px;
+    padding: 12px 36px;
     color: white;
     background-color:rgba(78, 71, 255, 1);
     font-size: 16px;
     border: none;
 }
+
 /* nav styling */
 
 .navigation
 {
     display: flex;
-    max-width: 1350px;
+    max-width: 1140px;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
@@ -40,4 +42,20 @@ body{
 }
 .sign-up{
     padding: 12px 36px;
+}
+
+header{
+    background-image: url('/images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    max-width: 905px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 155px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
 }
