@@ -57,7 +57,7 @@ body{
 }
 
 header{
-    background-image: url('/images/Hero-bg.png');
+    background-image: url('../images/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
