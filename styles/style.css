@@ -3,9 +3,9 @@ body{
     margin: 0 auto;
     background-color:#eff6ff;
 }
-main{
-        background-color:#eff6ff;
-}
+/* main{
+        
+} */
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -57,7 +57,7 @@ main{
 }
 
 header{
-    background-image: url('images/Hero-bg.png');
+    background-image: url('/images/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -209,7 +209,7 @@ input, textarea, .submit-button{
     width: 540px;
 }
 label{
-font-size: 18px;
+    font-size: 18px;
    font-weight: 600;
 }
 .data-input{
@@ -227,10 +227,15 @@ font-size: 18px;
 }
 .logo{
     font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
 }
 .footer-description
 {
     color:#8987A1;
+    font-size: 16px;
+    margin-top: -48px;
+    padding-bottom: 10px;
 }
 .link
 {
@@ -244,6 +249,7 @@ font-size: 18px;
 .link-container ul li a{
     text-decoration: none;
     color: #8987A1;
+    font-size: 16px;
 }
 .link-container ul li a:hover{
     text-decoration: underline;
