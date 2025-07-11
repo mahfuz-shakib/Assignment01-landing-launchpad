@@ -16,9 +16,14 @@ body{
 /* shared style */
 .section-position{
     max-width: 1140px;
+    margin: 117px auto;
+    /* background-color: burlywood; */
 }
 .primary-color{
     color: rgba(78, 71, 255, 1);
+}
+.heading-text-color{
+    color: rgba(37, 36, 50, 1);
 }
 .btn-primary{
     background-color:rgba(78, 71, 255, 1);
@@ -34,6 +39,7 @@ body{
 
 .navigation
 {
+    max-width: 1140px;
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -62,10 +68,26 @@ header{
     font-weight: bold;
     font-size: 65px;
 }
+
 /* action section styling */
 .action-container{
-    margin: 117px auto;
     display: flex;
+    gap:220px;
     justify-content: space-between;
     align-items: center;
+    /* background-color: aquamarine; */
+
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-description{
+    color:rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.action-image{
+    width:403px;
+    height:328px;
+    border-radius: 48px;
 }
